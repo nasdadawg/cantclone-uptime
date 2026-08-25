@@ -1,0 +1,17 @@
+# CANTCLONE availability monitor (Upptime).
+# Monitors the public admin login page for the CANTCLONE backend.
+
+owner: nasdadawg
+repo: cantclone-uptime
+user-agent: upptime
+
+sites:
+  - name: CANTCLONE Admin Login
+    url: https://flow-ruby-two.vercel.app/admin/login
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - nasdadawg
+
+# Minimal setup: monitoring + incident issues only (no status website).
+# To add a status page, add a `status-website:` block and the `site.yml` workflow.
